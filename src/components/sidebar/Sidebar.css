@@ -1,0 +1,90 @@
+/* Sidebar Css Here */
+.sidebar{
+  width: 270px;
+  /* border: 1px solid orange; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: ##F9FCFE;
+  padding:20px;
+}
+.sidebarUpper{
+  flex:1;
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+  border-bottom: 1px solid #D3D6DB;
+}
+.sidebarUpper h3{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #2CA4D8;
+  margin-left: 16px;
+  /* font-family: 'Passion One'; */
+}
+.logoWrapper{
+  width: 60px;
+  height: 48px;
+  background-color: #FFBF3F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.logo{
+  width: 32px;
+  height: 32px;
+}
+
+.sidebarMiddle{
+  flex:7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.sidebarBottom{
+  flex:2;
+}
+.sidebarBottom .profile{
+  width: 48px;
+  height: 48px;
+}
+.sidebarBottom h3{
+  font-family: 'Montserrat';
+  /* font-style: normal; */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #242424;
+  margin: 0!important;
+}
+.sidebarBottom p{
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #7F878A;
+  margin: 0!important;
+  margin-bottom: 10px !important;
+}
+.sidebarBottom button {
+  width: 240px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1.5px solid #2CA4D8;
+  filter: drop-shadow(0px 2px 20px rgba(56, 181, 235, 0.2));
+  border-radius: 10px;
+  padding: 4px 10px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #2CA4D8;
+  border-radius: 10px;
+}

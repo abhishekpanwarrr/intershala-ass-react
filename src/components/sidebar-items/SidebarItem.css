@@ -1,0 +1,25 @@
+.sidebarItem{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding:5px 0 5px 20px;
+  align-items: center;
+  border-radius: 10px;
+}
+.sidebarItem:hover{
+  background-color: #2CA4D8;
+  opacity: 0.5;
+}
+.sidebarItem p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  padding-left: 20px;
+}
+.sidebarItem:hover p{
+  color: #fff !important;
+}
+.sidebarItem img{
+  color: #fff;
+}
