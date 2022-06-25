@@ -36,6 +36,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 26px;
 border: none;
+cursor: pointer;
 }
 .bodyBottom{
   flex:2;
