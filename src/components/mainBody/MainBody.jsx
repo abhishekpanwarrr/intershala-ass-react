@@ -37,7 +37,7 @@ const MainBody = () => {
                 <tr key={item.id}>
                   <td>{item.id}</td>
                   <td>{item.name}</td>
-                  <td>{item.class}</td>
+                  <td>{item.class}th</td>
                   <td>
                     <p
                       className={item.result === "Passed" ? "passed" : "failed"}
