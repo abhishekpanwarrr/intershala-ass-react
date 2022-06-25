@@ -43,7 +43,14 @@ const RemovePopup = ({ setIsOpenRemove, itemId }) => {
           >
             Cancel
           </button>
-          <button>Remove</button>
+          <button
+            onClick={() => {
+              alert("Student Removed Successfully!! ");
+              setIsOpenRemove((open) => !open);
+            }}
+          >
+            Remove
+          </button>
         </div>
       </div>
     </div>

@@ -114,6 +114,7 @@ font-weight: 600;
 .users td:last-child i{
   width: 10px;
   opacity: 0;
+  cursor: pointer;
 }
 .users td:last-child:hover i{
  opacity: 1;

@@ -132,6 +132,10 @@ const AddPopUp = ({ isOpen, setIsOpen, itemId }) => {
                 type="button"
                 className={disabledButton ? "disabledButton" : ""}
                 disabled={disabledButton}
+                onClick={() => {
+                  alert("Updated student details successfully!! ");
+                  setIsOpen((open) => !open);
+                }}
               >
                 Update
               </button>
@@ -148,6 +152,10 @@ const AddPopUp = ({ isOpen, setIsOpen, itemId }) => {
                 type="button"
                 className={disabledButton ? "disabledButton" : ""}
                 disabled={disabledButton}
+                onClick={() => {
+                  alert("Student Added Successfully!! ");
+                  setIsOpen((open) => !open);
+                }}
               >
                 Confirm
               </button>

@@ -83,7 +83,11 @@ const MainBody = () => {
         />
       )}
       {isOpenRemove && (
-        <RemovePopup itemId={itemId} setIsOpenRemove={setIsOpenRemove} />
+        <RemovePopup
+          setIsOpen={setIsOpen}
+          itemId={itemId}
+          setIsOpenRemove={setIsOpenRemove}
+        />
       )}
     </section>
   );
